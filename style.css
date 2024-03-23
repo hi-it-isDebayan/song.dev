@@ -6,3 +6,54 @@
     width: 500px;
     height: 281px;
 }
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, main {
+            width: 100%;
+            max-width: 800px; /* Adjust max-width as per your design */
+            margin: 0 auto;
+            padding: 20px;
+        }
+        iframe {
+            width: 100%;
+        }
+        audio {
+            width: 100%;
+            max-width: 400px; /* Adjust max-width as per your design */
+            margin: 0 auto;
+            display: block;
+        }
+        p {
+            text-align: center;
+            white-space: pre-wrap;
+            margin: 20px 0;
+        }
+        button {
+            background-color: #4CAF50; /* Green */
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 8px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        @media screen and (max-width: 600px) {
+            /* Adjustments for smaller screens */
+            header, main {
+                padding: 10px;
+            }
+            button {
+                font-size: 14px;
+            }
+        }
+   
